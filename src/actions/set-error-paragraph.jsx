@@ -1,4 +1,4 @@
-export const setErrorParagraph = (error) => ({
-	type: 'SET_SELECTED_TODO_ID',
-	payload: error,
+export const setErrorParagraph = (delta) => ({
+	type: 'SET_ERROR_PARAGRAPH',
+	payload: delta,
 });

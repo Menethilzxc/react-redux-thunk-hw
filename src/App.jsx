@@ -67,6 +67,7 @@ function App() {
 
 	const { requestDeleteTodo, isDeleting } = useRequestDeleteTodo(refreshTodo);
 
+	console.log(errorParagraph);
 	return (
 		<>
 			<div className={styles.app}>

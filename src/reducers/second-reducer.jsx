@@ -37,7 +37,7 @@ export const secondReducer = (state = initialSecondState, action) => {
 		case 'SET_ERROR_PARAGRAPH':
 			return {
 				...state,
-				errorParagraph: state.errorParagraph,
+				errorParagraph: action.payload,
 			};
 		default:
 			return state;

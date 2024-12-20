@@ -1,1 +1,1 @@
-export const selectorErorParagraph = (state) => state.errorParagraph;
+export const selectorErorParagraph = (state) => state.secondState.errorParagraph;
